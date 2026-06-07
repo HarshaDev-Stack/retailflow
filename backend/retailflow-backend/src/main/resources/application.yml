@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: retailflow
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/retailflow_db
+    username: postgres
+    password: 4030
+
+  flyway:
+    enabled: true
